@@ -276,6 +276,6 @@ def force_password_change():
     if current_user.is_authenticated:
         if current_user.force_password_change and current_user.reputation >= 40 and request.endpoint != "panel.profile":
             return redirect(url_for("panel.profile"))
-    elif current_user.is_authenticated:
+    if current_user.is_authenticated:
         if current_user.force_password_change and current_user.reputation >= 40 and request.endpoint == "panel.profile":
             flash("Ze względów bezpieczeństwa, musisz teraz zmienić swoje hasło.", category="warning")
