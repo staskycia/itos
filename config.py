@@ -28,3 +28,5 @@ class Config:
     )
 
     MAIL_MAX_EMAILS = int(os.environ.get("MAIL_MAX_EMAILS", 3))
+    
+    MAX_CONTENT_LENGTH = 64 * 1024 * 1024 
