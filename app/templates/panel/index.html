@@ -1,0 +1,180 @@
+{% extends "panelbase.html" %}
+
+{% block title %}Start{% endblock %}
+
+{% block page %}panel{% endblock %}
+
+{% block content %}
+<div class="p-4 md:p-6">
+  <div class="grid grid-cols-6 gap-4 md:gap-6">
+    <div class="col-span-12 space-y-6 xl:col-span-7">
+      <!-- Metric Group One -->
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6">
+        <!-- Metric Item Start -->
+        <div
+          class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800"
+          >
+            <svg
+              stroke-width="1.5" stroke="currentColor" class="text-gray-800 dark:text-white/90"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round" stroke-linejoin="round"
+                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+              />
+              <path
+                stroke-linecap="round" stroke-linejoin="round"
+                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+            </svg>
+          </div>
+
+          <div class="mt-5 flex items-end justify-between">
+            <div>
+              <span class="text-sm text-gray-500 dark:text-gray-400">Opublikowane ogłoszenia</span>
+              <h4
+                class="mt-2 text-title-sm font-bold text-gray-800 dark:text-white/90"
+              >
+                {{current_user.posts.filter_by(status="visible").count()}}
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- Metric Item End -->
+
+        <!-- Metric Item Start -->
+        <div
+          class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800"
+          >
+            <svg
+              stroke-width="1.5" stroke="currentColor" class="text-gray-800 dark:text-white/90"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round" stroke-linejoin="round"
+                d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88"
+              />
+            </svg>
+          </div>
+
+          <div class="mt-5 flex items-end justify-between">
+            <div>
+              <span class="text-sm text-gray-500 dark:text-gray-400">Ukryte ogłoszenia</span>
+              <h4
+                class="mt-2 text-title-sm font-bold text-gray-800 dark:text-white/90"
+              >
+                {{current_user.posts.filter_by(status="hidden").count()}}
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- Metric Item End -->
+
+        <!-- Metric Item Start -->
+        <div
+          class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800"
+          >
+            <svg
+              stroke-width="1.5" stroke="currentColor" class="text-gray-800 dark:text-white/90"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round" stroke-linejoin="round"
+                d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+              />
+            </svg>
+          </div>
+
+          <div class="mt-5 flex items-end justify-between">
+            <div class="w-full">
+              <span class="text-sm text-gray-500 dark:text-gray-400">Wykorzystane miejsce na pliki</span>
+              <h4
+                class="mt-2 text-title-sm font-bold text-gray-800 dark:text-white/90"
+              >
+                {{space_used}} / {{current_user.quota}}MB
+              </h4>
+              <div class="mt-2 relative w-full h-4 rounded-full bg-gray-200 dark:bg-gray-800">
+              <div class="absolute left-0 h-full bg-brand-500 rounded-full flex items-center justify-center text-white font-medium text-[10px] leading-tight" style="width: {{percents}}%">
+                {{percents}}%
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- Metric Item End -->
+
+        <!-- Metric Item Start -->
+        <div
+          class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800"
+          >
+            <svg
+              stroke-width="1.5" stroke="currentColor" class="text-gray-800 dark:text-white/90"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round" stroke-linejoin="round"
+                d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
+              />
+            </svg>
+          </div>
+
+          <div class="mt-5 flex items-end justify-between">
+            <div class="w-full">
+              <span class="text-sm text-gray-500 dark:text-gray-400">Reputacja</span>
+              <h4
+                class="mt-2 text-title-sm font-bold text-gray-800 dark:text-white/90"
+              >
+                {% if current_user.reputation > 70 %}
+                Świetna
+                {% elif current_user.reputation > 60 %}
+                Dobra
+                {% elif current_user.reputation > 40 %}
+                Średnia
+                {% else %}
+                Zła
+                {% endif %}
+              </h4>
+              <div class="mt-2 relative w-full h-4 rounded-full bg-gray-200 dark:bg-gray-800">
+              <div class="absolute left-0 h-full bg-brand-500 rounded-full flex items-center justify-center text-white font-medium text-[10px] leading-tight" style="width: {{current_user.reputation}}%;">
+                {{current_user.reputation}}
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- Metric Item End -->
+      </div>
+
+      <!-- Metric Group One -->
+    </div>
+  </div>
+</div>
+{% endblock %}

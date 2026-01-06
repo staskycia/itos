@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Mail wysłany{% endblock title %}
+
+{% block content %}
+<div class="mb-5 sm:mb-8">
+  <h1
+    class="mb-2 font-semibold text-gray-800 text-title-sm dark:text-white/90 sm:text-title-md"
+  >
+    Co dalej?
+  </h1>
+  <p class="text-sm text-gray-500 dark:text-gray-400">
+    Na maila powiązanego z Twoim kontem szkolnym wysłaliśmy link umożliwiający ukończenie rejestracji.
+  </p>
+</div>
+<div>
+  <form>
+    <div class="space-y-5">
+      
+      <!-- Button -->
+      <div>
+        <a
+          class="flex items-center justify-center w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600"
+          href="https://mail.staszic.waw.pl?_user={{login}}"
+          target="_blank"
+        >
+          Przejdź na mail.staszic.waw.pl
+      </a>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}
