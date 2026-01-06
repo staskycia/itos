@@ -70,7 +70,7 @@ def signup():
             if user:
                 flash("Z tym kontem szkolnym jest już powiązane konto!", "error")
                 return redirect(url_for("auth.signin"))
-            send_button_message("Rejestracja w systemie ITOS", "Aby kontunuować rejestrację w systemie ITOS, kliknij w poniższy link i potwierdź swoją tożsamość.", [login+"@staszic.waw.pl"], "Potwierdź", url_for("auth.signup", token=generate_token(login), _external=True))
+            send_button_message("Rejestracja w systemie ITOS", "Aby kontunuować rejestrację w systemie ITOS, kliknij w poniższy link i potwierdź swoją tożsamość.", [login+"@staszic.waw.pl"], "Potwierdź", url_for("auth.confirm_signup", token=generate_token(login), _external=True))
             return render_template("confirmation-mail-sent.html", login=login)
         elif mode == "confirm":
             email = request.form.get("email")
