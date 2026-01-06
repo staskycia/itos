@@ -7,12 +7,7 @@ from app.extensions import db, migrate, login_manager, mail, admin
 from app.models import Person, User, Post, Tag, post_tags, UserRole, PostStatus, FileStatus
     
 def create_app(config_class = Config):
-    # PRODUCTION
-    # app = Flask(__name__, subdomain_matching=True)
-    
-    # DEV
     app = Flask(__name__)
-    #
     
     app.config.from_object(config_class)
     
