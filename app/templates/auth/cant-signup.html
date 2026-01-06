@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Błąd przy rejestracji{% endblock title %}
+
+{% block content %}
+<div class="mb-5 sm:mb-8">
+  <h1
+    class="mb-2 font-semibold text-gray-800 text-title-sm dark:text-white/90 sm:text-title-md"
+  >
+    Błąd przy rejestracji
+  </h1>
+  <p class="text-sm text-gray-500 dark:text-gray-400">
+    Niestety, nie mogliśmy Cię zarejestrować. Upewnij się, że poprawnie wpisałeś swój login i jeśli problem będzie się powtarzał, skontaktuj się z administratorem.
+  </p>
+</div>
+<div>
+  <form>
+    <div class="space-y-5">
+      
+      <!-- Button -->
+      <div class="flex flex-row gap-2">
+        <a
+          class="flex items-center justify-center w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600"
+          href="{{url_for('auth.signup')}}"
+        >
+          Spróbuj jeszcze raz
+        </a>
+
+        <a
+          class="flex items-center justify-center w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600"
+          href="{{url_for('main.home')}}"
+        >
+          Wróć do ogłoszeń
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}

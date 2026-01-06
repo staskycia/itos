@@ -1,0 +1,197 @@
+{% extends "panelbase.html" %}
+
+{% block title %}Opublikuj ogłoszenie{% endblock %}
+
+{% block page %}create{% endblock %}
+
+{% block content %}
+        <div class="mx-auto max-w-(--breakpoint-2xl) p-4 md:p-6">
+          <!-- Breadcrumb Start -->
+          <div x-data="{ pageName: `Opublikuj ogłoszenie`}">
+            <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+<h2
+  class="text-xl font-semibold text-gray-800 dark:text-white/90"
+  x-text="pageName"
+></h2>
+
+<nav>
+  <ol class="flex items-center gap-1.5">
+    <li>
+      <a
+        class="inline-flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400"
+        href="{{url_for('panel.panel_home')}}"
+      >
+        Panel
+        <svg
+          class="stroke-current"
+          width="17"
+          height="16"
+          viewBox="0 0 17 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.0765 12.667L10.2432 8.50033L6.0765 4.33366"
+            stroke=""
+            stroke-width="1.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </li>
+    <li
+      class="text-sm text-gray-800 dark:text-white/90"
+      x-text="pageName"
+    ></li>
+  </ol>
+</nav>
+</div>
+</div>
+          <!-- Breadcrumb End -->
+
+          <!-- ====== Form Elements Section Start -->
+          <div class="grid grid-cols-1 gap-6 sm:grid-cols-1">
+            <div class="space-y-6">
+              <div
+                class="rounded-2xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/[0.03]"
+              >
+                <div class="px-5 py-4 sm:px-6 sm:py-5">
+                  <h3
+                    class="text-base font-medium text-gray-800 dark:text-white/90"
+                  >
+                    Opublikuj ogłoszenie
+                  </h3>
+                </div>
+                <form action="{{url_for('panel.create')}}" method="POST">
+                <div
+                  class="space-y-6 border-t border-gray-100 p-5 sm:p-6 dark:border-gray-800"
+                >
+                  <!-- Elements -->
+                  <div>
+                    <label
+                      class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
+                    >
+                      Tytuł<span class="text-error-500">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      class="dark:bg-dark-900 shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10 dark:focus:border-brand-800 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30"
+                      name="title"
+                      required
+                    />
+                  </div>
+
+                  <!-- Elements -->
+                  <div>
+                    <label class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                      Treść<span class="text-error-500">*</span>
+                    </label>
+                    <textarea placeholder='Wpisz treść ogłoszenia. Do oznaczania linków możesz skorzystać ze składni HTML (&lt;a href=""&gt;&lt;/&gt;>)'' type="text" rows="6" class="dark:bg-dark-900 shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10 dark:focus:border-brand-800 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30" name="content" required></textarea>
+                  </div>
+
+                  <!-- Elements -->
+                  <div>
+                  <label class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                    Kategorie
+                  </label>
+
+                  <input type="hidden" name="tags" id="tags_input" value="">
+
+                  <div class="flex flex-wrap gap-2">
+                    {% for tag in assignable_tags %}
+                      <div
+                        class="tag-chip px-3 py-1 text-xs font-semibold rounded-full hover:opacity-90 transition
+                          bg-{{ tag.color.value }}-100 dark:bg-{{ tag.color.value }}-900
+                          text-{{ tag.color.value }}-700 dark:text-{{ tag.color.value }}-300
+                          {% if post and tag in post.tags %}selected{% endif %}"
+                        data-id="{{ tag.id }}"
+                      >
+                        {{ tag.name }}
+                      </div>
+                    {% endfor %}
+                  </div>
+                  </div>
+
+                  <!-- Elements -->
+                  {% if current_user.files.count() > 0 %}
+                  <div>
+                  <label class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                    Załączniki
+                  </label>
+
+                  <input type="hidden" name="files" id="files_input" value="">
+  
+                  <div class="flex flex-wrap gap-2">
+                    {% for file in current_user.files %}
+                      <div
+                        class="file-chip px-3 py-1 text-xs font-semibold rounded-full hover:opacity-90 transition bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300
+                          {% if post and file in post.files %}selected{% endif %}"
+                        data-id="{{ file.id }}"
+                      >
+                        {{ file.name }}
+                      </div>
+                    {% endfor %}
+                  </div>
+                  </div>
+                  {% endif %}
+
+                <input type="submit" value="{% if current_user.reputation >= 60 %}Opublikuj{% else %}Wyślij do weryfikacji{% endif %}" class="inline-flex items-center gap-2 px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600"/>
+              </div>
+              </form>
+              </div>
+            </div>
+
+            <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              const input = document.getElementById('tags_input');
+              const chips = document.querySelectorAll('.tag-chip');
+
+              chips.forEach(chip => {
+                chip.addEventListener('click', () => {
+                  chip.classList.toggle('selected');
+                  updateInput();
+                });
+              });
+
+              function updateInput() {
+                const selectedIds = Array.from(document.querySelectorAll('.tag-chip.selected'))
+                  .map(chip => chip.dataset.id);
+                input.value = selectedIds.join(',');
+              }
+            });
+
+            document.addEventListener('DOMContentLoaded', () => {
+              const input = document.getElementById('files_input');
+              const chips = document.querySelectorAll('.file-chip');
+
+              chips.forEach(chip => {
+                chip.addEventListener('click', () => {
+                  chip.classList.toggle('selected');
+                  updateInput();
+                });
+              });
+
+              function updateInput() {
+                const selectedIds = Array.from(document.querySelectorAll('.file-chip.selected'))
+                  .map(chip => chip.dataset.id);
+                input.value = selectedIds.join(',');
+              }
+            });
+            </script>
+
+            <style>
+            .tag-chip.selected {
+              opacity: 1;
+              border: 2px solid currentColor;
+            }
+            .file-chip.selected {
+              opacity: 1;
+              border: 2px solid currentColor;
+            }
+            </style>
+          </div>
+          <!-- ====== Form Elements Section End -->
+        </div>
+
+{% endblock %}
