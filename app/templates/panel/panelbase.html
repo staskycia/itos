@@ -45,20 +45,13 @@
   >
     <a href="{{url_for('panel.panel_home')}}">
       <span class="logo" :class="sidebarToggle ? 'hidden' : ''">
-        <img class="dark:hidden" src="{{url_for('static', filename='images/logo/logo.svg')}}" alt="Logo" />
+        <img class="dark:hidden  max-lg:hidden" src="{{url_for('static', filename='images/logo/logo.svg')}}" alt="Logo" />
         <img
-          class="hidden dark:block"
+          class="hidden dark:block max-lg:hidden"
           src="{{url_for('static', filename='images/logo/logo-dark.svg')}}"
           alt="Logo"
         />
       </span>
-
-      <img
-        class="logo-icon"
-        :class="sidebarToggle ? 'lg:block' : 'hidden' max-w-30"
-        src="{{url_for('static', filename='images/logo/logo-icon.svg')}}"
-        alt="Logo"
-      />
     </a>
   </div>
   <!-- SIDEBAR HEADER -->
