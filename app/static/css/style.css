@@ -4383,3 +4383,9 @@ span.flatpickr-weekday,
     }
   }
 }
+
+.max-lg\:hidden {
+  @media (width < 64rem) {
+    display: none;
+  }
+}
