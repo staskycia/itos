@@ -45,14 +45,14 @@
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
           <h2 class="text-2xl font-semibold text-brand-500 dark:text-brand-500 uppercase">{{post.title}}</h2>
         </div>
-        <div class="flex gap-2 flex-wrap mt-2 mb-2">
-          {% for tag in post.tags %}
-          <a href="?tag={{tag.id}}" class="px-3 py-1 bg-{{tag.color.value}}-100 dark:bg-{{tag.color.value}}-900 text-{{tag.color.value}}-700 dark:text-{{tag.color.value}}-300 text-xs font-semibold rounded-full hover:bg-{{tag.color.value}}-200 dark:hover:bg-{{tag.color.value}}-700 transition">{{tag.name}}</a>
-          {% endfor %}
-        </div>
-        <div class="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+        <div class="text-sm text-gray-700 dark:text-gray-300 space-y-1 mt-3">
           <p><span class="font-semibold">Dodał:</span> {{post.author.first_name}} {{post.author.last_name}}</p>
           <p><span class="font-semibold">Data publikacji:</span> {{post.created_at.strftime('%d.%m.%Y')}}</p>
+          <div class="flex gap-2 flex-wrap mt-3 mb-3">
+            {% for tag in post.tags %}
+            <a href="?tag={{tag.id}}" class="px-3 py-1 bg-{{tag.color.value}}-100 dark:bg-{{tag.color.value}}-900 text-{{tag.color.value}}-700 dark:text-{{tag.color.value}}-300 text-xs font-semibold rounded-full hover:bg-{{tag.color.value}}-200 dark:hover:bg-{{tag.color.value}}-700 transition">{{tag.name}}</a>
+            {% endfor %}
+          </div>
           {% if post.files %}
             <p><span class="font-semibold">Załączniki:</span>
               {% for file in post.files %}
