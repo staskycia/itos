@@ -42,13 +42,13 @@
 
       {% for post in pagination.items %}
       <section class="max-w-[95%] mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 {% if last_read and post.created_at > last_read %} new {% endif %}">
-        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4">
-          <h2 class="text-2xl font-semibold text-brand-500 dark:text-brand-500 mb-2 sm:mb-0 uppercase">{{post.title}}</h2>
-          <div class="flex gap-2 flex-wrap">
-            {% for tag in post.tags %}
-            <a href="?tag={{tag.id}}" class="px-3 py-1 bg-{{tag.color.value}}-100 dark:bg-{{tag.color.value}}-900 text-{{tag.color.value}}-700 dark:text-{{tag.color.value}}-300 text-xs font-semibold rounded-full hover:bg-{{tag.color.value}}-200 dark:hover:bg-{{tag.color.value}}-700 transition">{{tag.name}}</a>
-            {% endfor %}
-          </div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+          <h2 class="text-2xl font-semibold text-brand-500 dark:text-brand-500 uppercase">{{post.title}}</h2>
+        </div>
+        <div class="flex gap-2 flex-wrap mt-2 mb-2">
+          {% for tag in post.tags %}
+          <a href="?tag={{tag.id}}" class="px-3 py-1 bg-{{tag.color.value}}-100 dark:bg-{{tag.color.value}}-900 text-{{tag.color.value}}-700 dark:text-{{tag.color.value}}-300 text-xs font-semibold rounded-full hover:bg-{{tag.color.value}}-200 dark:hover:bg-{{tag.color.value}}-700 transition">{{tag.name}}</a>
+          {% endfor %}
         </div>
         <div class="text-sm text-gray-700 dark:text-gray-300 space-y-1">
           <p><span class="font-semibold">Dodał:</span> {{post.author.first_name}} {{post.author.last_name}}</p>
