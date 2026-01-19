@@ -1,10 +1,12 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, flash
 
 from config import Config
 
-from app.extensions import db, migrate, login_manager, mail, admin
+from app.extensions import db, migrate, login_manager, mail, admin, cache
 
-from app.models import Person, User, Post, Tag, post_tags, UserRole, PostStatus, FileStatus
+from app.models import Person, User, Post, Tag, post_tags, UserRole, PostStatus, FileStatus, Setting
+
+from flask_login import current_user
     
 def create_app(config_class = Config):
     app = Flask(__name__)
@@ -16,6 +18,7 @@ def create_app(config_class = Config):
     login_manager.init_app(app)
     mail.init_app(app)
     admin.init_app(app)
+    cache.init_app(app)
     
     from app.admin import init_admin
     with app.app_context():
@@ -37,5 +40,17 @@ def create_app(config_class = Config):
     
     from app.panel import bp as panel_bp
     app.register_blueprint(panel_bp, url_prefix="/panel")
+    
+    @app.before_request
+    def maintenance_mode():
+        if not Setting.get("maintenance_mode"):
+            return
+        if request.endpoint == "static":
+            return
+        if current_user.is_authenticated and current_user.role == UserRole.superadmin:
+            return
+        if request.endpoint == "auth.signin":
+            return
+        return render_template("maintenance.html"), 503
     
     return app

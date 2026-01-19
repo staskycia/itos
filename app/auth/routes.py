@@ -5,7 +5,7 @@ from itsdangerous import URLSafeTimedSerializer
 from app.extensions import db
 from app.mail import send_button_message
 
-from app.models import User, Person
+from app.models import User, Person, Setting
 
 from app.auth import bp
 
@@ -55,6 +55,9 @@ def is_valid_email(value: str) -> bool:
 def signup():
     if current_user.is_authenticated:
         return redirect(url_for("panel.panel_home"))
+    if Setting.get("registration_disabled") == True:
+        flash("Możliwość rejestracji została wyłączona przez administratora!", "error")
+        return redirect(url_for("main.home"))
     if request.method == "POST":
         mode = request.form.get("mode")
         if mode == "start":
@@ -114,6 +117,7 @@ def signup():
 def confirm_signup(token):
     if current_user.is_authenticated:
         return redirect(url_for("panel.panel_home"))
+    
     login = confirm_token(token)
     if not login:
         flash("Twój link wygasł lub jest niewżany!", "error")

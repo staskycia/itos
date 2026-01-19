@@ -1,11 +1,14 @@
 from flask_admin.contrib.sqla import ModelView
 from app.extensions import db, admin
-from app.models import User, Person, Post, Tag, File, UserRole
+from app.models import User, Person, Post, Tag, File, UserRole, Setting
+from app.models.setting import invalidate_setting_cache
 from flask import redirect, url_for
 from flask_login import current_user
 from wtforms import PasswordField
 from werkzeug.security import generate_password_hash
 from werkzeug.utils import secure_filename
+from redis import Redis
+from flask_admin.contrib import rediscli
 
 class AdminModelView(ModelView):
     def is_accessible(self):
@@ -216,7 +219,19 @@ class UserFilesView(FileAdmin):
 
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for("auth.signin"))
+    
+class SettingModelView(SuperAdminModelView):
+    column_list = ["key", "value"]
+    can_edit = True
+    can_create = False
+    edit_modal = True
+    
+class SecureRedisCli(rediscli.RedisCli):
+    def is_accessible(self):
+        return current_user.is_authenticated and current_user.role == UserRole.superadmin
 
+    def inaccessible_callback(self, name, **kwargs):
+        return redirect(url_for("panel.panel_home"))
 
 import os.path as op
 from flask_admin.base import MenuLink
@@ -233,6 +248,8 @@ def init_admin():
     admin.add_view(RecentFileModelView(File, db.session, name="Recent", endpoint="recent_files", category="Files"))
     admin.add_view(UserFilesView(op.join(op.dirname(__file__), "..", "uploads"), "/uploads/", name="Uploads"))
     admin.add_view(StaticFilesView(op.join(op.dirname(__file__), "..", "static"), "/static/", name="Static Files"))
+    admin.add_view(SettingModelView(Setting, db.session, name="Settings"))
+    admin.add_view(SecureRedisCli(Redis(), name="Redis Cli"))
     
     admin.add_link(MenuLink(name="Logout", url="/auth/logout"))
     admin.add_link(MenuLink(name="Site", url="/", category="Go to"))

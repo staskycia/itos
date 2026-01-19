@@ -4,6 +4,9 @@ db = SQLAlchemy()
 from flask_migrate import Migrate
 migrate = Migrate()
 
+from flask_caching import Cache
+cache = Cache()
+
 from flask_login import LoginManager, current_user
 from app.models import User, File, Post, Tag, Person, UserRole
 

@@ -1,12 +1,15 @@
 alembic==1.17.2
 babel==2.17.0
+beautifulsoup4==4.13.4
 bleach==6.3.0
 blinker==1.9.0
+cachelib==0.13.0
 click==8.2.1
 dnspython==2.8.0
 email-validator==2.3.0
 Flask==3.1.1
 Flask-Admin==2.0.2
+Flask-Caching==2.3.1
 Flask-Login==0.6.3
 Flask-Mail==0.10.0
 Flask-Migrate==4.1.0
@@ -23,6 +26,8 @@ packaging==25.0
 psycopg2-binary==2.9.11
 python-dotenv==1.1.1
 pytz==2025.2
+redis==7.1.0
+soupsieve==2.7
 SQLAlchemy==2.0.41
 tablib==3.9.0
 typing_extensions==4.14.1

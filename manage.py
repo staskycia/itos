@@ -61,5 +61,21 @@ def import_people():
     db.session.commit()
     print(f"{count_imported} people imported, {count_skipped} skipped")
 
+
+@cli.command('init-settings')
+def init_settings():
+    from config import DEFAULT_SETTINGS
+    from app.models import Setting
+    for key, value in DEFAULT_SETTINGS.items():
+        setting = Setting.query.get(key)
+        if not setting:
+            new_setting = Setting(key=key, value=value)
+            db.session.add(new_setting)
+            print(f"Added {key}={value}")
+        else:
+            setting.value = value
+            print(f"Changing {key} to {value}")
+    db.session.commit()
+
 if __name__ == "__main__":
     cli()

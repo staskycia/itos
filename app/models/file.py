@@ -34,3 +34,14 @@ class File(db.Model):
 
     def __repr__(self):
         return f"{self.name} ({self.author})"
+    
+from sqlalchemy import event
+import os
+from flask import current_app
+
+@event.listens_for(File, "after_delete")
+def delete_file_on_disk(mapper, connection, target):
+    file_path = os.path.join(current_app.root_path, "uploads", target.filename)
+    
+    if os.path.exists(file_path):
+        os.remove(file_path)
