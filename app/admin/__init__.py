@@ -225,6 +225,7 @@ class SettingModelView(SuperAdminModelView):
     can_edit = True
     can_create = False
     edit_modal = True
+    can_create = False
     
 class SecureRedisCli(rediscli.RedisCli):
     def is_accessible(self):
