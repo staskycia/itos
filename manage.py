@@ -1,4 +1,5 @@
 import os
+
 from flask.cli import FlaskGroup
 from werkzeug.security import generate_password_hash
 
@@ -6,10 +7,13 @@ from app import create_app
 from app.extensions import db
 from app.models import Person, User, UserRole
 
+
 def create_app_cli():
     return create_app()
 
+
 cli = FlaskGroup(create_app=create_app_cli)
+
 
 @cli.command("add-superadmin-user")
 def add_superadmin_user():
@@ -27,13 +31,14 @@ def add_superadmin_user():
         last_name="Admin",
         ldap_group="itos",
         email_confirmed=True,
-        force_password_change=True
+        force_password_change=True,
     )
 
     db.session.add(admin_user)
     db.session.commit()
 
     print("Superadmin user created")
+
 
 @cli.command("import-people")
 def import_people():
@@ -49,10 +54,7 @@ def import_people():
                 continue
 
             newperson = Person(
-                login=data[0],
-                first_name=data[1],
-                last_name=data[2],
-                ldap_group=data[3]
+                login=data[0], first_name=data[1], last_name=data[2], ldap_group=data[3]
             )
 
             db.session.add(newperson)
@@ -62,10 +64,11 @@ def import_people():
     print(f"{count_imported} people imported, {count_skipped} skipped")
 
 
-@cli.command('init-settings')
+@cli.command("init-settings")
 def init_settings():
-    from config import DEFAULT_SETTINGS
     from app.models import Setting
+    from config import DEFAULT_SETTINGS
+
     for key, value in DEFAULT_SETTINGS.items():
         setting = Setting.query.get(key)
         if not setting:
@@ -76,6 +79,7 @@ def init_settings():
             setting.value = value
             print(f"Changing {key} to {value}")
     db.session.commit()
+
 
 if __name__ == "__main__":
     cli()

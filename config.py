@@ -1,14 +1,13 @@
 import os
+
 from dotenv import load_dotenv
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 load_dotenv()
 
-DEFAULT_SETTINGS = {
-    "maintenance_mode": False,
-    "registration_disabled": False
-}
+DEFAULT_SETTINGS = {"maintenance_mode": False, "registration_disabled": False}
+
 
 class Config:
     SECRET_KEY = os.environ["SECRET_KEY"]
@@ -29,13 +28,13 @@ class Config:
 
     MAIL_DEFAULT_SENDER = (
         os.environ.get("MAIL_DEFAULT_NAME"),
-        os.environ.get("MAIL_DEFAULT_EMAIL")
+        os.environ.get("MAIL_DEFAULT_EMAIL"),
     )
 
     MAIL_MAX_EMAILS = int(os.environ.get("MAIL_MAX_EMAILS", 3))
-    
-    MAX_CONTENT_LENGTH = 64 * 1024 * 1024 
 
-    CACHE_TYPE="RedisCache"
-    CACHE_REDIS_URL="redis://localhost:6379/0"
-    CACHE_DEFAULT_TIMEOUT=300
+    MAX_CONTENT_LENGTH = 64 * 1024 * 1024
+
+    CACHE_TYPE = "RedisCache"
+    CACHE_REDIS_URL = "redis://localhost:6379/0"
+    CACHE_DEFAULT_TIMEOUT = 300
