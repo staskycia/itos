@@ -8,7 +8,7 @@ from werkzeug.security import generate_password_hash
 from werkzeug.utils import secure_filename
 from wtforms import PasswordField
 
-from app.extensions import admin, db
+from app.extensions import admin, db, cache
 from app.models import File, Person, Post, Setting, Tag, User, UserRole
 from app.models.setting import invalidate_setting_cache
 
@@ -308,20 +308,9 @@ class SettingModelView(SuperAdminModelView):
     can_delete = False
 
 
-class SecureRedisCli(rediscli.RedisCli):
-    def is_accessible(self):
-        return (
-            current_user.is_authenticated and current_user.role == UserRole.superadmin
-        )
-
-    def inaccessible_callback(self, name, **kwargs):
-        return redirect(url_for("panel.panel_home"))
-
-
 import os.path as op
 
 from flask_admin.base import MenuLink
-
 
 def init_admin():
     admin.add_view(UserModelView(User, db.session, name="Users"))
@@ -364,8 +353,8 @@ def init_admin():
             name="Static Files",
         )
     )
+    
     admin.add_view(SettingModelView(Setting, db.session, name="Settings"))
-    admin.add_view(SecureRedisCli(Redis(), name="Redis Cli"))
 
     admin.add_link(MenuLink(name="Logout", url="/auth/logout"))
     admin.add_link(MenuLink(name="Site", url="/", category="Go to"))

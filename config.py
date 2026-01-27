@@ -36,5 +36,5 @@ class Config:
     MAX_CONTENT_LENGTH = 64 * 1024 * 1024
 
     CACHE_TYPE = "RedisCache"
-    CACHE_REDIS_URL = "redis://localhost:6379/0"
+    CACHE_REDIS_URL = "redis://127.0.0.1:6379/0"
     CACHE_DEFAULT_TIMEOUT = 300
