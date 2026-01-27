@@ -38,3 +38,7 @@ class Config:
     CACHE_TYPE = "RedisCache"
     CACHE_REDIS_URL = "redis://127.0.0.1:6379/0"
     CACHE_DEFAULT_TIMEOUT = 300
+
+    SERVER_NAME=os.getenv("SERVER_NAME")
+    APPLICATION_ROOT=os.getenv("APPLICATION_ROOT")
+    PREFERRED_URL_SCHEME=os.getenv("APPLICATION_ROOT")
