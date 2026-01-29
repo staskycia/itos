@@ -14,7 +14,6 @@ from app.models import (
     post_tags,
 )
 from config import Config
-from app.logging import init_logging
 
 
 def create_app(config_class=Config):
@@ -29,7 +28,6 @@ def create_app(config_class=Config):
     admin.init_app(app)
     cache.init_app(app)
     csrf.init_app(app)
-    init_logging(app)
 
     from app.admin import init_admin
 
