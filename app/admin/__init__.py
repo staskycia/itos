@@ -328,21 +328,21 @@ class SettingModelView(SuperAdminModelView):
     edit_modal = True
     can_delete = False
 
-class LogView(SuperAdminBaseView):
-    @expose("/")
-    def index(self):
-        log_path = "itos.log"
+# class LogView(SuperAdminBaseView):
+#     @expose("/")
+#     def index(self):
+#         log_path = "itos.log"
         
-        if not os.path.exists(log_path):
-            return self.render("admin/logs.html", log_content="Log file not found.")
+#         if not os.path.exists(log_path):
+#             return self.render("admin/logs.html", log_content="Log file not found.")
         
-        with open(log_path, 'rb') as f:
-            f.seek(0, os.SEEK_END)
-            size = f.tell()
-            f.seek(max(size - 100_000, 0))
-            content = f.read().decode(errors="ignore")
+#         with open(log_path, 'rb') as f:
+#             f.seek(0, os.SEEK_END)
+#             size = f.tell()
+#             f.seek(max(size - 100_000, 0))
+#             content = f.read().decode(errors="ignore")
             
-        return self.render("admin/logs.html", log_content = Markup(content.replace('<', '&lt;').replace('>', '&gt;')))
+#         return self.render("admin/logs.html", log_content = Markup(content.replace('<', '&lt;').replace('>', '&gt;')))
 
 from .forms import SendMailForm
 
@@ -413,7 +413,6 @@ def init_admin():
     
     admin.add_view(SettingModelView(Setting, db.session, name="Settings"))
     
-    admin.add_view(LogView(name="Logs"))
     admin.add_view(SendMailView(name="Send Mail"))
 
     admin.add_link(MenuLink(name="Logout", url="/auth/logout"))
