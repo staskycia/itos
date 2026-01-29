@@ -35,11 +35,11 @@
             required
           />
           {% if form.email.errors %}
-          <ul>
-            {% for error in form.email.errors %}
-              <li class="text-sm text-error-500">{{ error }} </li>
-            {% endfor %}
-          </ul>
+            <ul>
+              {% for error in form.email.errors %}
+                <li class="text-sm text-error-500">{{ error }} </li>
+              {% endfor %}
+            </ul>
           {% endif %}
         </div>
       <!-- Password -->
@@ -58,13 +58,13 @@
               name="{{form.password.name}}"
               required
             />
-          {% if form.password.errors %}
-          <ul>
-            {% for error in form.password.errors %}
-              <li class="text-sm text-error-500">{{ error }} </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
+            {% if form.password.errors %}
+              <ul>
+                {% for error in form.password.errors %}
+                  <li class="text-sm text-error-500">{{ error }} </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
             <span
               @click="showPassword = !showPassword"
               class="absolute z-30 text-gray-500 -translate-y-1/2 cursor-pointer right-4 top-1/2 dark:text-gray-400"

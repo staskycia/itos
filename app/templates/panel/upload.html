@@ -73,7 +73,7 @@
                 <label
                   class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
                 >
-                {{form.name.label.text}}<span class="text-error-500">*</span>
+                  {{form.name.label.text}}<span class="text-error-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -84,11 +84,11 @@
                   required
                 />
                 {% if form.name.errors %}
-                <ul>
-                  {% for error in form.name.errors %}
-                    <li class="text-sm text-error-500">{{ error }} </li>
-                  {% endfor %}
-                </ul>
+                  <ul>
+                    {% for error in form.name.errors %}
+                      <li class="text-sm text-error-500">{{ error }} </li>
+                    {% endfor %}
+                  </ul>
                 {% endif %}
               </div>
 
@@ -107,11 +107,11 @@
                   required
                 />
                 {% if form.file.errors %}
-                <ul>
-                  {% for error in form.file.errors %}
-                    <li class="text-sm text-error-500">{{ error }} </li>
-                  {% endfor %}
-                </ul>
+                  <ul>
+                    {% for error in form.file.errors %}
+                      <li class="text-sm text-error-500">{{ error }} </li>
+                    {% endfor %}
+                  </ul>
                 {% endif %}
               </div>
 

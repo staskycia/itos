@@ -1,0 +1,1128 @@
+[2026-01-28 17:52:20,562] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:52:20,562] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:52:42,690] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:52:42,701] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 17:52:43,732] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:52:44,447] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:52:44,447] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:52:44,454] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:52:44,454] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:52:45,244] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /panel/upload HTTP/1.1" 200 -
+[2026-01-28 17:52:45,244] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /panel/upload HTTP/1.1" 200 -
+[2026-01-28 17:52:45,264] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/images/logo/logo.svg HTTP/1.1" 304 -
+[2026-01-28 17:52:45,264] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/images/logo/logo.svg HTTP/1.1" 304 -
+[2026-01-28 17:52:45,266] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/images/logo/logo-dark.svg HTTP/1.1" 304 -
+[2026-01-28 17:52:45,266] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/images/logo/logo-dark.svg HTTP/1.1" 304 -
+[2026-01-28 17:52:45,267] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/js/bundle.js HTTP/1.1" 304 -
+[2026-01-28 17:52:45,267] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/js/bundle.js HTTP/1.1" 304 -
+[2026-01-28 17:52:45,267] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/css/style.css HTTP/1.1" 304 -
+[2026-01-28 17:52:45,267] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:52:45] "GET /static/css/style.css HTTP/1.1" 304 -
+[2026-01-28 17:55:50,978] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:55:50,978] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:55:51,863] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:55:51,871] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:56:01,819] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:01] "GET /panel/upload HTTP/1.1" 200 -
+[2026-01-28 17:56:01,844] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:01] "GET /static/images/logo/logo.svg HTTP/1.1" 304 -
+[2026-01-28 17:56:01,844] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:01] "GET /static/css/style.css HTTP/1.1" 304 -
+[2026-01-28 17:56:01,845] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:01] "GET /static/images/logo/logo-dark.svg HTTP/1.1" 304 -
+[2026-01-28 17:56:01,845] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:01] "GET /static/js/bundle.js HTTP/1.1" 304 -
+[2026-01-28 17:56:06,444] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:06,804] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,807] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,810] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1" 304 -
+[2026-01-28 17:56:06,813] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,823] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,829] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,837] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,849] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,850] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/bootstrap/bootstrap4/swatch/slate/bootstrap.min.css?v=4.2.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,850] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,851] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1" 304 -
+[2026-01-28 17:56:06,851] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:06] "GET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1" 304 -
+[2026-01-28 17:56:38,787] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:56:39,547] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:56:39,555] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 17:56:41,605] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:56:42,368] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:56:42,368] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:56:42,375] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:56:42,375] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:56:44,483] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:44] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:44,483] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:44] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,177] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,177] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,429] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,429] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,591] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,591] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,757] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:56:57,757] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:56:57] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 17:57:06,115] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:06] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 17:57:06,115] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:06] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 17:57:09,766] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:09] "GET /admin/user/edit/?id=9&url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 17:57:09,766] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:09] "GET /admin/user/edit/?id=9&url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 17:57:13,300] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:13] "POST /admin/user/edit/?id=9&url=/admin/user/?page_size%3D20 HTTP/1.1" 302 -
+[2026-01-28 17:57:13,300] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:13] "POST /admin/user/edit/?id=9&url=/admin/user/?page_size%3D20 HTTP/1.1" 302 -
+[2026-01-28 17:57:13,322] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:13] "GET /admin/user/?page_size=20 HTTP/1.1" 200 -
+[2026-01-28 17:57:13,322] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:57:13] "GET /admin/user/?page_size=20 HTTP/1.1" 200 -
+[2026-01-28 17:58:36,745] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:36] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 17:58:36,745] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:36] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 17:58:36,775] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:36] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 17:58:36,775] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:36] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 17:58:40,171] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:40] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:58:40,171] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:40] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:58:49,934] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:49] "POST /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:58:49,934] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:58:49] "POST /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:59:00,973] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:59:00,973] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:59:01,947] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:59:01,947] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:59:01,958] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:59:01,958] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:59:02,006] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:59:02] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:59:02,006] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:59:02] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:59:09,163] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:59:09] "POST /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:59:09,163] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:59:09] "POST /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:59:15,242] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:59:15,242] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:59:16,218] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:59:16,218] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:59:16,226] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:59:16,226] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:59:36,669] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:59:36,669] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 17:59:37,361] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:59:37,361] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 17:59:37,368] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:59:37,368] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 17:59:39,379] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:59:39] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 17:59:39,379] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 17:59:39] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:00:00,534] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:00:00,534] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:00:00,535] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:00:00,535] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:00:00,536] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:00:00,536] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:00:01,072] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:00:01,072] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:00:01,080] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:00:01,080] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:00:06,260] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "POST /auth/reset-password HTTP/1.1" 500 -
+[2026-01-28 18:00:06,260] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "POST /auth/reset-password HTTP/1.1" 500 -
+[2026-01-28 18:00:06,287] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "GET /auth/reset-password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-28 18:00:06,287] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "GET /auth/reset-password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-28 18:00:06,287] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "GET /auth/reset-password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-28 18:00:06,287] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "GET /auth/reset-password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-28 18:00:06,296] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "GET /auth/reset-password?__debugger__=yes&cmd=resource&f=console.png&s=hZdKFoLr7klElZZJ51pV HTTP/1.1" 200 -
+[2026-01-28 18:00:06,296] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:06] "GET /auth/reset-password?__debugger__=yes&cmd=resource&f=console.png&s=hZdKFoLr7klElZZJ51pV HTTP/1.1" 200 -
+[2026-01-28 18:00:34,106] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:00:34,106] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:00:34,106] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:00:34,106] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:00:37,021] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:37] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:00:37,021] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:37] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:00:42,966] ERROR in app: Exception on /auth/reset-password [POST]
+Traceback (most recent call last):
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/skycia/itos/app/auth/routes.py", line 184, in request_password_reset
+    send_button_message(
+    ~~~~~~~~~~~~~~~~~~~^
+        "Zmiana hasła w systemie ITOS",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "/Users/skycia/itos/app/mail/__init__.py", line 30, in send_button_message
+    mail.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask_mail/__init__.py", line 539, in send
+    with self.connect() as connection:
+         ~~~~~~~~~~~~^^
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask_mail/__init__.py", line 127, in __enter__
+    self.host = self.configure_host()
+                ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask_mail/__init__.py", line 144, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2026-01-28 18:00:42,966] ERROR in app: Exception on /auth/reset-password [POST]
+Traceback (most recent call last):
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/skycia/itos/app/auth/routes.py", line 184, in request_password_reset
+    send_button_message(
+    ~~~~~~~~~~~~~~~~~~~^
+        "Zmiana hasła w systemie ITOS",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "/Users/skycia/itos/app/mail/__init__.py", line 30, in send_button_message
+    mail.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask_mail/__init__.py", line 539, in send
+    with self.connect() as connection:
+         ~~~~~~~~~~~~^^
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask_mail/__init__.py", line 127, in __enter__
+    self.host = self.configure_host()
+                ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/skycia/itos/venv/lib/python3.13/site-packages/flask_mail/__init__.py", line 144, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2026-01-28 18:00:42,972] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:42] "POST /auth/reset-password HTTP/1.1" 500 -
+[2026-01-28 18:00:42,972] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:00:42] "POST /auth/reset-password HTTP/1.1" 500 -
+[2026-01-28 18:01:07,455] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:01:07,455] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:01:07,455] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:01:07,455] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:01:11,684] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:01:11] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:01:11,684] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:01:11] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:08:29,283] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:29] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:08:29,283] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:29] "GET /auth/reset-password HTTP/1.1" 200 -
+[2026-01-28 18:08:38,660] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:08:38,660] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:08:38,660] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:08:38,660] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:08:38,661] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:08:38,661] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:08:39,186] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:08:39,186] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:08:39,195] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:08:39,195] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:08:42,989] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:42] "GET /auth/ HTTP/1.1" 200 -
+[2026-01-28 18:08:42,989] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:42] "GET /auth/ HTTP/1.1" 200 -
+[2026-01-28 18:08:46,942] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:46] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:08:46,942] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:46] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:08:53,032] INFO in werkzeug.actions: 127.0.0.1 - user=- [28/Jan/2026 17:08:53] "ZAD"
+[2026-01-28 18:08:53,032] INFO in werkzeug.actions: 127.0.0.1 - user=- [28/Jan/2026 17:08:53] "ZAD"
+[2026-01-28 18:08:53,034] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:53] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:08:53,034] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:53] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:08:53,186] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:53] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:08:53,186] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:08:53] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:10:46,568] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:10:46,568] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:10:46,695] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:10:46,695] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:10:47,437] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:10:47,437] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:10:47,447] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:10:47,447] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:10:51,886] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:51] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 18:10:51,886] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:51] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 18:10:51,914] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:51] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:10:51,914] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:51] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:10:57,692] INFO in app: 127.0.0.1 - user=- [28/Jan/2026 17:10:57] "ZAD"
+[2026-01-28 18:10:57,692] INFO in app: 127.0.0.1 - user=- [28/Jan/2026 17:10:57] "ZAD"
+[2026-01-28 18:10:57,694] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:57] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:10:57,694] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:57] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:10:57,738] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:57] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:10:57,738] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:10:57] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:11:12,934] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:11:12,934] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:11:13,060] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:11:13,060] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:11:13,817] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:11:13,817] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:11:13,824] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:11:13,824] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:11:31,163] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:11:31,163] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:11:31,290] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:11:31,290] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:11:32,030] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:11:32,030] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:11:32,037] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:11:32,037] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:12:27,157] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:12:27,157] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:12:27,271] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:12:27,271] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:12:27,980] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:12:27,980] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:12:27,988] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:12:27,988] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:12:32,091] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:12:32,091] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:12:32,218] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:12:32,218] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:12:32,903] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:12:32,903] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:12:32,910] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:12:32,910] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:12:36,990] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:36] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 18:12:36,990] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:36] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 18:12:37,019] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:37] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:12:37,019] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:37] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:12:42,167] INFO in app: 127.0.0.1 - user=ANONYMOUS [28/Jan/2026 17:12:42] "UZADOWIENIE"
+[2026-01-28 18:12:42,167] INFO in app: 127.0.0.1 - user=ANONYMOUS [28/Jan/2026 17:12:42] "UZADOWIENIE"
+[2026-01-28 18:12:42,169] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:42] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:12:42,169] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:42] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:12:42,213] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:42] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:12:42,213] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:12:42] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:13:50,860] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:13:50,860] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:13:50,861] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:13:50,861] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:14:18,530] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:14:18,530] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:14:18,531] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:14:19,074] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:14:19,083] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:14:20,842] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:14:20] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:14:27,314] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:14:27] "GET /panel/upload HTTP/1.1" 200 -
+[2026-01-28 18:14:30,848] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:14:30] "GET /panel/files HTTP/1.1" 200 -
+[2026-01-28 18:14:35,570] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:14:35] "POST /panel/delete-file HTTP/1.1" 302 -
+[2026-01-28 18:14:35,595] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:14:35] "GET /panel/files HTTP/1.1" 200 -
+[2026-01-28 18:15:28,517] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:15:28,643] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:15:29,288] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:15:29,297] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:16:05,015] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:16:05,137] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:16:05,691] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:16:05,699] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:17:01,820] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:17:01,949] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:17:02,635] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:17:02,643] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:17:29,175] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:17:29,302] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:17:29,859] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:17:29,866] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:18:10,663] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:18:10,807] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:18:11,408] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:18:11,415] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:18:31,824] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:18:31,962] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:18:32,594] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:18:32,601] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:18:44,629] INFO in app: 127.0.0.1 - user=1 [28/Jan/2026 17:18:44] "LOGGED OUT"
+[2026-01-28 18:18:44,629] INFO in app: 127.0.0.1 - user=1 [28/Jan/2026 17:18:44] "LOGGED OUT"
+[2026-01-28 18:18:44,631] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:18:44] "GET /auth/logout HTTP/1.1" 302 -
+[2026-01-28 18:18:44,660] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:18:44] "GET /auth/signin HTTP/1.1" 200 -
+[2026-01-28 18:19:06,603] INFO in app: 127.0.0.1 - user=ANONYMOUS [28/Jan/2026 17:19:06] "logged in"
+[2026-01-28 18:19:06,603] INFO in app: 127.0.0.1 - user=ANONYMOUS [28/Jan/2026 17:19:06] "logged in"
+[2026-01-28 18:19:06,605] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:19:06] "POST /auth/signin HTTP/1.1" 302 -
+[2026-01-28 18:19:06,651] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:19:06] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:19:20,601] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/auth/routes.py', reloading
+[2026-01-28 18:19:20,731] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:19:21,450] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:19:21,458] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:19:52,013] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:19:52,161] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:19:52,714] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:19:52,721] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:20:22,301] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:20:22,432] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:20:23,006] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:20:23,013] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:20:57,683] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:20:57,812] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:20:58,448] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:20:58,455] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:21:24,980] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:21:25,124] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:21:25,740] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:21:25,748] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:21:51,247] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:21:51,375] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:21:51,931] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:21:51,938] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:21:59,082] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:21:59,244] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:21:59,852] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:21:59,859] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:22:12,080] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:22:12,242] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:22:12,809] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:22:12,819] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:22:21,014] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/panel/routes.py', reloading
+[2026-01-28 18:22:21,134] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:22:21,681] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:22:21,688] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:22:26,102] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:22:26] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 18:22:28,215] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:22:28] "GET /panel/create HTTP/1.1" 200 -
+[2026-01-28 18:22:31,795] INFO in app: 127.0.0.1 - user=1 [28/Jan/2026 17:22:31] "CREATED POST 42"
+[2026-01-28 18:22:31,795] INFO in app: 127.0.0.1 - user=1 [28/Jan/2026 17:22:31] "CREATED POST 42"
+[2026-01-28 18:22:31,796] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:22:31] "POST /panel/create HTTP/1.1" 302 -
+[2026-01-28 18:22:31,825] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:22:31] "GET /panel/posts HTTP/1.1" 200 -
+[2026-01-28 18:23:53,397] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:23:53,564] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:23:54,341] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:23:54,350] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:23:58,428] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/logging.py', reloading
+[2026-01-28 18:23:58,552] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:23:59,118] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:23:59,125] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:24:04,532] INFO in app: 127.0.0.1 - user=1 [28/Jan/2026 17:24:04] "DELETED POST 42"
+[2026-01-28 18:24:04,533] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:24:04] "POST /panel/delete-post HTTP/1.1" 302 -
+[2026-01-28 18:24:04,579] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:24:04] "GET /panel/posts HTTP/1.1" 200 -
+[2026-01-28 18:25:07,470] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/models/user.py', reloading
+[2026-01-28 18:25:07,594] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:25:08,186] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:25:08,193] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:26:24,717] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 18:26:24,717] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 18:26:24,718] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 18:26:25,249] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 18:26:25,257] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 18:26:26,230] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:26:26] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 18:26:27,482] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:26:27] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 18:26:28,958] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 18:26:28] "GET /admin/user/edit/?id=1&url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 21:18:53,043] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-28 21:18:53,043] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-28 21:18:53,044] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:18:53,587] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:18:53,596] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 21:18:54,872] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:18:54] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 21:18:55,482] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:18:55] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 200 -
+[2026-01-28 21:18:55,573] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:18:55] "GET /apple-touch-icon.png HTTP/1.1" 200 -
+[2026-01-28 21:18:55,641] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:18:55] "GET /favicon.ico HTTP/1.1" 302 -
+[2026-01-28 21:18:59,473] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:18:59] "GET /admin/user/edit/?id=1&url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 21:19:07,277] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:19:07] "POST /admin/user/edit/?id=1&url=/admin/user/?page_size%3D20 HTTP/1.1" 302 -
+[2026-01-28 21:19:07,296] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:19:07] "GET /admin/user/?page_size=20 HTTP/1.1" 200 -
+[2026-01-28 21:20:02,324] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:20:02] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 200 -
+[2026-01-28 21:20:06,607] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:20:06] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 200 -
+[2026-01-28 21:20:21,825] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:20:21] "GET /favicon.ico HTTP/1.1" 302 -
+[2026-01-28 21:20:56,135] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:20:56] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 200 -
+[2026-01-28 21:20:58,351] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:20:58] "GET / HTTP/1.1" 200 -
+[2026-01-28 21:44:55,899] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:44:55] "GET / HTTP/1.1" 200 -
+[2026-01-28 21:44:57,886] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:44:57] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 21:44:59,843] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:44:59] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 21:45:01,536] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:45:01] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 21:45:02,814] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:45:02] "GET /admin/person/ HTTP/1.1" 200 -
+[2026-01-28 21:49:32,690] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 21:49:32,867] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:49:33,539] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:49:33,550] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 21:51:34,735] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 21:51:34,860] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:51:35,465] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:51:35,473] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 21:54:25,374] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 21:54:25,501] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:54:26,098] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:54:26,107] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 21:54:47,507] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 21:54:47,641] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:54:48,090] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:54:48,097] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 21:54:48,837] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:54:48] "GET /admin/person/ HTTP/1.1" 500 -
+[2026-01-28 21:54:49,155] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:54:49] "GET /admin/person/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-28 21:54:49,156] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:54:49] "GET /admin/person/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-28 21:54:49,161] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:54:49] "GET /admin/person/?__debugger__=yes&cmd=resource&f=console.png&s=JVgLYzCuoFkrf3TdtaS1 HTTP/1.1" 200 -
+[2026-01-28 21:54:49,174] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:54:49] "GET /admin/person/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-01-28 21:55:41,020] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 21:55:41,141] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:55:41,938] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:55:41,946] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 21:55:42,123] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:55:42] "GET /admin/person/ HTTP/1.1" 200 -
+[2026-01-28 21:55:43,748] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:55:43] "GET /admin/logview/ HTTP/1.1" 500 -
+[2026-01-28 21:55:44,065] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:55:44] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-28 21:55:44,066] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:55:44] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-28 21:55:44,074] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:55:44] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=console.png&s=3QBkW8SRzIvUT7TKdOSe HTTP/1.1" 200 -
+[2026-01-28 21:55:44,105] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:55:44] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-01-28 21:56:30,838] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:30] "GET /admin/logview/ HTTP/1.1" 500 -
+[2026-01-28 21:56:30,850] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:30] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 21:56:30,851] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:30] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 21:56:30,857] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:30] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=console.png&s=3QBkW8SRzIvUT7TKdOSe HTTP/1.1" 304 -
+[2026-01-28 21:56:57,545] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:57] "GET /admin/logview/ HTTP/1.1" 500 -
+[2026-01-28 21:56:57,556] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:57] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 21:56:57,558] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:57] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 21:56:57,566] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:57] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=console.png&s=3QBkW8SRzIvUT7TKdOSe HTTP/1.1" 304 -
+[2026-01-28 21:56:59,766] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:59] "GET /admin/logview/ HTTP/1.1" 500 -
+[2026-01-28 21:56:59,772] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:59] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 21:56:59,773] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:59] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 21:56:59,778] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:56:59] "GET /admin/logview/?__debugger__=yes&cmd=resource&f=console.png&s=3QBkW8SRzIvUT7TKdOSe HTTP/1.1" 304 -
+[2026-01-28 21:57:26,131] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 21:57:26,280] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 21:57:27,060] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 21:57:27,067] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 21:57:27,136] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:57:27] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 21:57:35,355] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:57:35] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 21:57:39,370] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:57:39] "GET /admin/setting/ HTTP/1.1" 200 -
+[2026-01-28 21:57:45,281] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:57:45] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 21:58:12,880] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 21:58:12] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:00:35,950] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:00:36,119] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:00:36,833] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:00:36,840] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:00:53,867] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:00:53] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:00:59,544] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:00:59] "GET /admin/staticfilesview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:01,297] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:01] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:04,135] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:04] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:04,957] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:04] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:05,527] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:05] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:06,039] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:06] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:06,556] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:06] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:07,006] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:07] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:07,592] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:07] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:08,287] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:08] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:08,820] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:08] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:09,332] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:09] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:09,468] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:09] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:09,705] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:09] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:09,873] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:09] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:10,071] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:10] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:10,240] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:10] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:10,424] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:10] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:10,622] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:10] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:01:10,840] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:01:10] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:02:49,392] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:02:49,559] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:02:50,286] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:02:50,294] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:03:17,794] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:03:17,944] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:03:18,574] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:03:18,581] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:03:40,016] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:03:40,145] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:03:40,733] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:03:40,743] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:03:54,025] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:03:54,228] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:03:55,048] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:03:55,056] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:03:55,282] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:03:55] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-28 22:04:04,049] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:04] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 22:04:05,164] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:05] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 22:04:09,928] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:09] "GET /admin/person/ HTTP/1.1" 200 -
+[2026-01-28 22:04:12,641] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:12] "GET /admin/post/ HTTP/1.1" 200 -
+[2026-01-28 22:04:15,867] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:15] "GET /admin/tag/ HTTP/1.1" 200 -
+[2026-01-28 22:04:20,645] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:20] "GET /admin/file/ HTTP/1.1" 200 -
+[2026-01-28 22:04:21,716] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:21] "GET /admin/userfilesview/ HTTP/1.1" 200 -
+[2026-01-28 22:04:23,319] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:04:23] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 22:06:27,678] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:06:27] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 22:06:28,858] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:06:28] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 22:06:30,950] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:06:30] "GET /admin/user/edit/?id=3&url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 22:09:00,838] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-28 22:09:00,971] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:09:01,671] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:09:01,679] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:09:24,100] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-28 22:09:24,238] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:09:24,953] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:09:24,961] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:09:45,365] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-28 22:09:45,569] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:09:46,331] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:09:46,339] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:10:52,544] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:10:52,674] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:10:53,431] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:10:53,438] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:11:15,881] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:11:16,009] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:11:16,703] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:11:16,710] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:11:17,919] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:11:17] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 22:11:19,462] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:11:19] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:11:22,862] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:11:22] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:12:06,719] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:12:06] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 22:12:08,294] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:12:08] "GET /admin/user/new/?url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 22:12:30,140] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:12:30,309] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:12:31,063] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:12:31,072] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:12:31,551] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:12:31] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 22:12:32,480] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:12:32] "GET /admin/user/new/?url=/admin/user/?page_size%3D20 HTTP/1.1" 200 -
+[2026-01-28 22:12:52,519] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:12:52,675] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:12:53,482] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:12:53,489] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:13:02,940] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:13:02] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:13:22,500] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:13:22] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:14:35,265] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:14:35] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:17:27,813] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:17:27,970] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:17:28,797] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:17:28,805] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:17:28,866] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:17:28] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:17:29,358] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:17:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-28 22:17:29,359] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:17:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-28 22:17:29,370] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:17:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=CACKAuZRKsFG9wIstlIO HTTP/1.1" 200 -
+[2026-01-28 22:17:29,396] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:17:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-01-28 22:18:19,790] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:18:19,930] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:18:20,730] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:18:20,739] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:18:21,387] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:18:21] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:18:54,395] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:18:54,525] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:18:55,172] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:18:55,185] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:18:55,201] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:18:55] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:18:55,215] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:18:55] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:18:55,218] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:18:55] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:18:55,223] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:18:55] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=5dRUYgNYxsBOKGvWxzcl HTTP/1.1" 200 -
+[2026-01-28 22:20:32,958] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:20:33,097] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:20:33,762] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:20:33,771] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:20:33,785] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:33] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:20:33,814] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:33] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:20:33,817] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:33] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:20:33,822] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:33] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=vJiQXBhf19tA8Qdf2Jr2 HTTP/1.1" 200 -
+[2026-01-28 22:20:35,588] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:35] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:20:35,595] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:35] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:20:35,595] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:35] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:20:35,600] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:35] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=vJiQXBhf19tA8Qdf2Jr2 HTTP/1.1" 304 -
+[2026-01-28 22:20:46,022] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:20:46,134] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:20:46,719] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:20:46,726] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:20:46,784] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:46] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:20:46,800] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:46] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:20:46,803] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:46] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:20:46,809] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:20:46] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=jE3GfHXnJzQss5B4QdiX HTTP/1.1" 200 -
+[2026-01-28 22:22:21,484] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:22:21,699] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:22:22,481] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:22:22,489] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:22:22,729] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:22:22] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:22:22,743] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:22:22] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:22:22,744] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:22:22] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:22:22,749] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:22:22] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=zz1AOPp0lW7YSYiVAO84 HTTP/1.1" 200 -
+[2026-01-28 22:23:04,292] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:23:04,433] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:23:05,164] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:23:05,172] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:23:29,619] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:23:29,762] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:23:30,379] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:23:30,390] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:23:35,508] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:23:35,662] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:23:36,171] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:23:36,182] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:23:36,767] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:36] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:23:37,091] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:37] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:23:37,094] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:37] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:23:37,101] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:37] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=0d7C9cf8qcwijy7H953A HTTP/1.1" 200 -
+[2026-01-28 22:23:50,445] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:23:50,577] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:23:51,283] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:23:51,290] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:23:51,308] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:51] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:23:51,323] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:51] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:23:51,325] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:51] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:23:51,329] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:23:51] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=4A1JyacyriL93mnq42FQ HTTP/1.1" 200 -
+[2026-01-28 22:24:03,551] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:24:03,703] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:24:04,143] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:24:04,150] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:24:04,163] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:04] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:24:04,190] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:04] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:24:04,192] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:04] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:24:04,198] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:04] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=92PTONQ11ACpi6UHV96i HTTP/1.1" 200 -
+[2026-01-28 22:24:07,746] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:07] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:24:07,760] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:07] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:24:07,761] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:07] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:24:07,769] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:07] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=92PTONQ11ACpi6UHV96i HTTP/1.1" 304 -
+[2026-01-28 22:24:08,233] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:24:08,346] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:24:08,870] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:24:08,877] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:24:09,910] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:24:10,048] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:24:10,638] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:24:10,645] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:24:10,660] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:10] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:24:10,682] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:10] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:24:10,683] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:10] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:24:10,687] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:24:10] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=P7zjzGSSCsx3h5iN7lpB HTTP/1.1" 200 -
+[2026-01-28 22:25:00,577] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:25:00,701] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:25:01,381] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:25:01,393] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:25:01,439] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:25:01] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:25:01,450] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:25:01] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:25:01,451] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:25:01] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:25:01,456] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:25:01] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=doGEn7drepVd1JkFjPW1 HTTP/1.1" 200 -
+[2026-01-28 22:27:50,450] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:27:50] "GET / HTTP/1.1" 500 -
+[2026-01-28 22:27:50,460] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:27:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-28 22:27:50,461] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:27:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-28 22:27:50,468] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:27:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=doGEn7drepVd1JkFjPW1 HTTP/1.1" 200 -
+[2026-01-28 22:28:06,880] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:28:07,039] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:28:07,731] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:28:07,739] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:28:16,915] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:28:17,095] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:28:17,828] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:28:17,836] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-28 22:28:18,700] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:18] "GET / HTTP/1.1" 500 -
+[2026-01-28 22:28:18,717] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:18] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:28:18,718] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:28:18,723] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:18] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=TsjKOdE4Z1L8FFryzXxd HTTP/1.1" 200 -
+[2026-01-28 22:28:34,140] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:28:34,275] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:28:34,883] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:28:34,890] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:28:34,969] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:34] "GET / HTTP/1.1" 200 -
+[2026-01-28 22:28:39,519] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:39] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-28 22:28:42,325] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:42] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-28 22:28:44,095] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:44] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:28:44,488] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:44] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:28:44,489] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:44] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:28:44,495] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:44] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=exniq1hvZpbI84qeESEH HTTP/1.1" 200 -
+[2026-01-28 22:28:52,246] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:28:52,402] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:28:53,178] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:28:53,187] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:28:53,292] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:28:53] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:29:26,383] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:29:26] "POST /admin/sendmailview/ HTTP/1.1" 405 -
+[2026-01-28 22:29:58,808] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:29:58] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:31:18,993] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:31:19,164] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:31:19,945] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:31:19,954] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:31:20,469] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:31:20] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:32:18,095] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:32:18,232] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:32:18,983] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:32:18,993] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:32:53,679] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:32:53,825] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:32:54,597] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:32:54,605] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:32:55,185] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:32:55] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-28 22:32:55,237] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:32:55] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-28 22:32:55,239] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:32:55] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-28 22:32:55,252] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:32:55] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=kEJqvQYntzX2AwAWmYNw HTTP/1.1" 200 -
+[2026-01-28 22:33:01,750] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:33:01,884] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:33:02,506] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:33:02,513] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:33:02,613] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:33:02] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:33:10,696] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-28 22:33:10,823] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:33:11,442] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:33:11,450] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:33:11,550] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:33:11] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:34:53,585] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:34:53] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:35:35,860] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:35:35] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:36:07,839] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-28 22:36:07,985] INFO in werkzeug:  * Restarting with stat
+[2026-01-28 22:36:08,870] WARNING in werkzeug:  * Debugger is active!
+[2026-01-28 22:36:08,879] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-28 22:36:08,957] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:36:08] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:36:27,679] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:36:27] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:36:55,526] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:36:55] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:37:14,057] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:37:14] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-28 22:37:24,147] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:37:24] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-28 22:37:26,622] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:37:26] "GET /admin/user/new/?url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-28 22:38:16,436] INFO in werkzeug: 127.0.0.1 - - [28/Jan/2026 22:38:16] "POST /admin/user/new/?url=/admin/user/?page_size%3D20 HTTP/1.1" 200 -
+[2026-01-29 09:51:57,752] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:51:57] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:52:27,421] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:52:27] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:54:23,421] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:54:23] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 09:54:23,431] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:54:23] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-29 09:54:23,431] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:54:23] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-29 09:54:23,439] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:54:23] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=hWMWqCN8Q5SajFfNSbgs HTTP/1.1" 200 -
+[2026-01-29 09:54:30,510] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:54:30] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:55:04,360] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:04] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:55:15,512] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:15] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 09:55:15,526] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:15] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 09:55:15,527] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:15] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 09:55:15,534] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:15] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=hWMWqCN8Q5SajFfNSbgs HTTP/1.1" 304 -
+[2026-01-29 09:55:20,120] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:20] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:55:27,187] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:27] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 09:55:27,202] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:27] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 09:55:27,205] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:27] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 09:55:27,210] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:27] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=hWMWqCN8Q5SajFfNSbgs HTTP/1.1" 304 -
+[2026-01-29 09:55:44,160] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 09:55:44,317] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 09:55:45,153] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 09:55:45,161] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 09:55:45,238] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:55:45] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:56:00,812] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:56:00] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:56:11,270] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:56:11] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:56:26,381] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:56:26] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:58:06,305] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:58:06] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:58:54,077] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 09:58:54,227] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 09:58:54,971] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 09:58:54,978] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 09:58:55,057] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:58:55] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:59:13,670] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:59:13] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 09:59:16,309] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 09:59:16] "POST /admin/sendmailview/ HTTP/1.1" 405 -
+[2026-01-29 10:00:09,444] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:00:09,599] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:00:10,446] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:00:10,457] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:00:14,280] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:14] "POST /admin/sendmailview/ HTTP/1.1" 405 -
+[2026-01-29 10:00:27,850] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:00:27,983] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:00:28,610] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:00:28,619] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:00:29,663] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:29] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:00:29,677] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:00:29,678] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:00:29,682] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:29] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=2jXO0PAeWBf4KuVuswLC HTTP/1.1" 200 -
+[2026-01-29 10:00:32,704] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:00:32,828] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:00:33,424] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:00:33,431] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:00:34,138] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:34] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:00:36,086] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:36] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:00:37,068] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:37] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:00:37,678] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:37] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:00:55,878] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:00:56,006] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:00:56,616] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:00:56,624] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:00:57,649] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:00:57,788] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:00:58,402] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:00:58,411] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:00:59,847] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:59] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:00:59,859] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:59] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:00:59,862] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:59] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:00:59,867] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:00:59] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=EjubnGpRXhZQjRhmczfo HTTP/1.1" 200 -
+[2026-01-29 10:01:11,683] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:11] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:01:13,873] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:13] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:01:51,597] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:51] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:01:52,953] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:52] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:01:54,076] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:54] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:01:56,884] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:56] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:01:59,521] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:01:59] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:02:06,493] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:02:06] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:02:09,710] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:02:09] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:16:04,004] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:16:04] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-29 10:16:36,888] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:16:36] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-29 10:16:49,213] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:16:49] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:16:52,423] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:16:52] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:17:38,154] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:17:38] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:17:39,870] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:17:39] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:17:40,841] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:17:40] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:17:42,561] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:17:42] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:17:44,691] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:17:44] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:18:03,854] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:18:04,035] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:18:04,831] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:18:04,840] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:18:05,099] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:18:05] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:18:06,185] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:18:06] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:18:23,223] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:18:23,360] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:18:24,080] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:18:24,087] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:18:43,083] INFO in werkzeug: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+[2026-01-29 10:18:43,083] INFO in werkzeug: Press CTRL+C to quit
+[2026-01-29 10:18:43,084] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:18:43,609] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:18:43,616] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:18:46,490] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:18:46] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:18:49,923] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:18:49] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:06,351] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:06] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:07,118] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:07] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:07,666] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:07] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:15,223] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:19:15,347] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:19:16,158] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:19:16,166] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:19:17,195] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:19:17,387] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:19:18,007] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:19:18,014] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:19:18,891] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:18] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:20,711] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:20] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:21,356] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:21] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:21,978] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:21] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:45,436] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:45] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:19:46,016] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:19:46] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:20:09,226] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:20:09] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:24:27,040] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:24:27] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:24:40,546] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:24:40] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:24:42,771] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:24:42] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:24:43,429] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:24:43] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:24:45,283] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:24:45] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:25:23,298] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:25:23,445] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:25:24,181] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:25:24,190] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:25:39,763] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:25:39] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:25:40,664] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:25:40] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:25:41,427] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:25:41] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:26:21,214] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 10:26:21,406] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:26:22,216] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:26:22,226] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:26:27,193] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:26:27] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:27:17,491] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:27:17] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:27:18,545] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:27:18] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:27:20,212] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:27:20] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:27:20,855] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:27:20] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:27:21,380] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:27:21] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:28:34,313] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:28:34] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:28:35,846] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:28:35] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:28:36,344] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:28:36] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:28:45,585] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:28:45] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:28:57,691] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:28:57] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:29:00,497] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:29:00] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:29:29,885] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 10:29:30,054] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:29:30,883] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:29:30,895] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:29:31,325] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:29:31] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:29:32,871] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:29:32] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:29:34,618] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:29:34] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:29:45,640] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:29:45] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:29:47,380] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:29:47] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:30:07,631] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:30:07,776] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:30:08,380] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:30:08,387] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:32:33,174] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:32:33,410] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:32:34,178] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:32:34,186] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:33:33,295] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:33:33,448] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:33:34,206] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:33:34,214] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:35:16,238] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:35:16,377] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:35:17,082] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:35:17,092] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:35:29,353] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:35:29,489] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:35:30,081] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:35:30,088] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:35:50,475] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:35:50,614] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:35:51,333] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:35:51,341] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:36:13,767] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:36:13,890] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:36:14,593] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:36:14,601] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:36:20,375] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:20] "GET / HTTP/1.1" 200 -
+[2026-01-29 10:36:22,967] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:22] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-29 10:36:25,214] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:25] "GET /panel/profile HTTP/1.1" 200 -
+[2026-01-29 10:36:31,801] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:31] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-29 10:36:33,532] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:33] "GET /admin/user/ HTTP/1.1" 200 -
+[2026-01-29 10:36:35,617] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:35] "GET /admin/user/edit/?id=1&url=/admin/user/?page_size%3D20&modal=True HTTP/1.1" 200 -
+[2026-01-29 10:36:38,969] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:38] "POST /admin/user/edit/?id=1&url=/admin/user/?page_size%3D20 HTTP/1.1" 302 -
+[2026-01-29 10:36:38,990] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:38] "GET /admin/user/?page_size=20 HTTP/1.1" 200 -
+[2026-01-29 10:36:42,727] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:42] "GET / HTTP/1.1" 200 -
+[2026-01-29 10:36:45,335] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:45] "GET /panel/ HTTP/1.1" 302 -
+[2026-01-29 10:36:45,348] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:45] "GET /panel/profile HTTP/1.1" 200 -
+[2026-01-29 10:36:50,180] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:50] "GET /auth/resend-confirmation-email HTTP/1.1" 302 -
+[2026-01-29 10:36:50,212] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:50] "GET /panel/ HTTP/1.1" 302 -
+[2026-01-29 10:36:50,229] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:36:50] "GET /panel/profile HTTP/1.1" 200 -
+[2026-01-29 10:38:32,182] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:38:32,335] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:38:33,122] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:38:33,131] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:38:41,313] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:38:41,446] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:38:42,161] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:38:42,169] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:38:50,333] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:38:50,466] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:38:51,255] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:38:51,264] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:38:54,192] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:38:54] "GET /panel/profile HTTP/1.1" 200 -
+[2026-01-29 10:38:58,660] INFO in app: 127.0.0.1 - user=1 [29/Jan/2026 09:38:58] "CONFIRMED EMAIL"
+[2026-01-29 10:38:58,662] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:38:58] "GET /auth/confirm-email/InN0YW5pc2xhdy5zdGFza0BnbWFpbC5jb20i.aXsqLw.VZCzMHSw5JtHNAhk4Drbu-UGNWk HTTP/1.1" 302 -
+[2026-01-29 10:38:58,710] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:38:58] "GET /panel/ HTTP/1.1" 200 -
+[2026-01-29 10:39:05,327] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:39:05] "GET /admin/ HTTP/1.1" 200 -
+[2026-01-29 10:39:07,119] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:39:07] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:39:26,548] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:39:26] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:39:26,768] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:39:26] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-29 10:39:26,769] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:39:26] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-29 10:39:26,779] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:39:26] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=usGIwS9NQKuk4NaTrlhC HTTP/1.1" 200 -
+[2026-01-29 10:40:03,743] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:40:03,892] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:40:04,763] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:40:04,775] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:40:16,022] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:40:16,148] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:40:16,923] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:40:16,935] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:40:17,475] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:17] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:40:28,263] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:28] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:40:28,462] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:28] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:40:28,463] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:28] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:40:28,472] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:28] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=1UBNgf8E8v2Pw22ccrm6 HTTP/1.1" 200 -
+[2026-01-29 10:40:35,332] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:40:35,497] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:40:36,252] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:40:36,259] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:40:49,563] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:40:49,701] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:40:50,489] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:40:50,498] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:40:54,447] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:54] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:40:54,637] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:54] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:40:54,637] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:54] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:40:54,646] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:40:54] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=X7dxSUNvn5OHfF863D2z HTTP/1.1" 200 -
+[2026-01-29 10:41:35,343] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:41:35,501] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:41:36,361] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:41:36,370] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:42:20,100] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:42:20,291] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:42:21,105] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:42:21,114] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:42:24,176] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/mail/__init__.py', reloading
+[2026-01-29 10:42:24,323] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:42:24,924] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:42:24,931] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:42:31,433] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:42:31] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:42:39,277] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:42:39] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:42:39,498] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:42:39] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:42:39,499] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:42:39] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:42:39,507] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:42:39] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=THOUHz9zOA5UsYAvk3bO HTTP/1.1" 200 -
+[2026-01-29 10:42:54,517] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:42:54,718] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:42:55,459] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:42:55,467] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:42:58,642] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:42:58] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:43:41,350] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:43:41,520] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:43:42,369] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:43:42,378] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:43:44,233] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:43:44] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:43:55,674] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:43:55,809] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:43:56,487] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:43:56,498] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:44:06,269] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:44:06] "POST /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:44:44,918] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:44:44] "GET /admin/logview/ HTTP/1.1" 200 -
+[2026-01-29 10:44:49,850] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:44:49] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:45:13,520] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/__init__.py', reloading
+[2026-01-29 10:45:13,669] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:45:14,520] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:45:14,531] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:47:18,946] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/validators.py', reloading
+[2026-01-29 10:47:19,091] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:47:19,750] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:47:19,757] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:47:26,898] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/validators.py', reloading
+[2026-01-29 10:47:27,031] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:47:27,707] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:47:27,714] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:48:02,374] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/validators.py', reloading
+[2026-01-29 10:48:02,504] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:48:03,146] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:48:03,153] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:48:08,258] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/validators.py', reloading
+[2026-01-29 10:48:08,384] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:48:08,951] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:48:08,958] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:48:33,467] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 10:48:33,607] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:48:34,103] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:48:34,111] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:48:37,309] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:37] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:48:37,966] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:37] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:48:37,968] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:37] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:48:37,979] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:37] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=90boXvKpUwkYCoKm4QPu HTTP/1.1" 200 -
+[2026-01-29 10:48:43,278] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 10:48:43,401] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:48:43,952] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:48:43,961] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:48:43,977] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:43] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:48:44,301] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:44] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:48:44,302] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:44] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:48:44,310] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:44] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=U9GQOSAK7bKA3MpDLLYB HTTP/1.1" 200 -
+[2026-01-29 10:48:47,694] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:47] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:48:47,953] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:47] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:48:47,954] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:47] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:48:47,962] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:48:47] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=U9GQOSAK7bKA3MpDLLYB HTTP/1.1" 304 -
+[2026-01-29 10:49:01,296] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/validators.py', reloading
+[2026-01-29 10:49:01,443] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:49:02,031] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:49:02,039] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:49:02,130] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:49:02] "GET /admin/sendmailview/ HTTP/1.1" 200 -
+[2026-01-29 10:49:06,454] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:49:06] "POST /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:49:06,739] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:49:06] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:49:06,739] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:49:06] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:49:06,747] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:49:06] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=egC1r6NBF4E87EkP3bpl HTTP/1.1" 200 -
+[2026-01-29 10:50:23,631] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/validators.py', reloading
+[2026-01-29 10:50:23,777] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:50:24,409] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:50:24,418] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:50:31,587] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 10:50:31,718] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:50:32,208] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:50:32,215] INFO in werkzeug:  * Debugger PIN: 431-786-975
+[2026-01-29 10:50:32,855] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:50:32] "GET /admin/sendmailview/ HTTP/1.1" 500 -
+[2026-01-29 10:50:33,524] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:50:33] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+[2026-01-29 10:50:33,525] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:50:33] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+[2026-01-29 10:50:33,532] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:50:33] "GET /admin/sendmailview/?__debugger__=yes&cmd=resource&f=console.png&s=iJXyB04kkU43yPQjf0N3 HTTP/1.1" 200 -
+[2026-01-29 10:50:41,392] INFO in werkzeug:  * Detected change in '/Users/skycia/itos/app/admin/forms.py', reloading
+[2026-01-29 10:50:41,520] INFO in werkzeug:  * Restarting with stat
+[2026-01-29 10:50:42,112] WARNING in werkzeug:  * Debugger is active!
+[2026-01-29 10:50:42,120] INFO in werkzeug:  * Debugger PIN: 140-042-297
+[2026-01-29 10:50:42,195] INFO in werkzeug: 127.0.0.1 - - [29/Jan/2026 10:50:42] "GET /admin/sendmailview/ HTTP/1.1" 200 -

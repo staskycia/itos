@@ -1,17 +1,19 @@
-from flask import redirect, url_for
+from flask import redirect, url_for, flash
 from flask_admin.contrib import rediscli
-from flask_admin.contrib.sqla import ModelView
+from flask_admin import BaseView, expose
 from flask_admin.form import SecureForm
+from flask_admin.contrib.sqla import ModelView
 from flask_login import current_user
 from redis import Redis
 from werkzeug.security import generate_password_hash
 from werkzeug.utils import secure_filename
 from wtforms import PasswordField
+from markupsafe import Markup
 
 from app.extensions import admin, db, cache
 from app.models import File, Person, Post, Setting, Tag, User, UserRole
 from app.models.setting import invalidate_setting_cache
-
+import os
 
 class AdminModelView(ModelView):
     def is_accessible(self):
@@ -23,7 +25,7 @@ class AdminModelView(ModelView):
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for("panel.panel_home"))
 
-    # column_display_pk = True
+    column_display_pk = True
 
 
 class AdminOnlyModelView(ModelView):
@@ -33,7 +35,7 @@ class AdminOnlyModelView(ModelView):
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for("panel.panel_home"))
 
-    # column_display_pk = True
+    column_display_pk = True
 
 
 class SuperAdminModelView(ModelView):
@@ -45,7 +47,26 @@ class SuperAdminModelView(ModelView):
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for("panel.panel_home"))
 
-    # column_display_pk = True
+    column_display_pk = True
+    
+class AdminBaseView(BaseView):
+    def is_accessible(self):
+        return current_user.is_authenticated and (
+            current_user.role == UserRole.superadmin
+            or current_user.role == UserRole.admin
+        )
+
+    def inaccessible_callback(self, name, **kwargs):
+        return redirect(url_for("panel.panel_home"))
+    
+class SuperAdminBaseView(BaseView):
+    def is_accessible(self):
+        return current_user.is_authenticated and (
+            current_user.role == UserRole.superadmin
+        )
+
+    def inaccessible_callback(self, name, **kwargs):
+        return redirect(url_for("panel.panel_home"))
 
 
 class UserModelView(SuperAdminModelView):
@@ -307,6 +328,42 @@ class SettingModelView(SuperAdminModelView):
     edit_modal = True
     can_delete = False
 
+class LogView(SuperAdminBaseView):
+    @expose("/")
+    def index(self):
+        log_path = "itos.log"
+        
+        if not os.path.exists(log_path):
+            return self.render("admin/logs.html", log_content="Log file not found.")
+        
+        with open(log_path, 'rb') as f:
+            f.seek(0, os.SEEK_END)
+            size = f.tell()
+            f.seek(max(size - 100_000, 0))
+            content = f.read().decode(errors="ignore")
+            
+        return self.render("admin/logs.html", log_content = Markup(content.replace('<', '&lt;').replace('>', '&gt;')))
+
+from .forms import SendMailForm
+
+from app.mail import send_message
+
+class SendMailView(AdminBaseView):
+    def render(self, template, **kwargs):
+        kwargs['submit_text'] = 'Register User'
+        return super().render(template, **kwargs)
+    
+    @expose("/", methods=["GET", "POST"])
+    def index(self):    
+        form = SendMailForm()
+        
+        if form.validate_on_submit():
+            # send_message(form.title.data, form.content.data, [form.recipient.data], f"{current_user.first_name} {current_user.last_name} z ITOS", replay_to=current_user.email)
+            flash("Message sent!", "success")
+        
+        print(form.errors)
+        
+        return self.render("admin/send_mail.html", form=form)
 
 import os.path as op
 
@@ -355,6 +412,9 @@ def init_admin():
     )
     
     admin.add_view(SettingModelView(Setting, db.session, name="Settings"))
+    
+    admin.add_view(LogView(name="Logs"))
+    admin.add_view(SendMailView(name="Send Mail"))
 
     admin.add_link(MenuLink(name="Logout", url="/auth/logout"))
     admin.add_link(MenuLink(name="Site", url="/", category="Go to"))

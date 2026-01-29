@@ -79,6 +79,8 @@ class User(UserMixin, db.Model):
     assignable_tags = db.relationship(
         "Tag", secondary=tag_assigners, back_populates="allowed_users"
     )
+    
+    notes = db.Column(db.Text, nullable=True)
 
     def __repr__(self):
         return f"{self.first_name} {self.last_name} ({self.email})"

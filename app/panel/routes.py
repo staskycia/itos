@@ -13,6 +13,7 @@ from app.extensions import db
 from app.mail import send_button_message
 from app.models import File, FileStatus, Post, PostStatus, Tag, User
 from app.panel import bp
+from app.logging import log_action
 
 
 def get_assignable_tags():
@@ -92,6 +93,7 @@ def create():
             flash("Twoje ogłoszenie zostało opublikowane!", "success")
         else:
             flash("Twoje ogłoszenie zostało wysłane do weryfikacji!", "success")
+        log_action(f"CREATED POST {post.id}")
         return redirect(url_for("panel.news"))
     return render_template("create.html", assignable_tags=get_assignable_tags(), form=form)
 
@@ -142,6 +144,7 @@ def profile():
             user.force_password_change = False
             db.session.commit()
             flash("Hasło zostało zmienione!", "success")
+            log_action(f"CHANGED PASSWORD")
     if personal_data_form.submit_personal.data:
         if personal_data_form.validate_on_submit():
             user = User.query.get(current_user.id)
@@ -162,6 +165,7 @@ def profile():
             flash(
                 "Adres email zmieniony pomyślnie! Na nowy adres wysłaliśmy maila z linkiem pozwalającym na jego weryfikację.", "success"
             )
+            log_action(f"CHANGED PERSONAL DATA")
     return render_template("profile.html", password_form=password_form, personal_data_form=personal_data_form)
 
 
@@ -214,6 +218,7 @@ def upload():
             flash("Twój plik został zapisany.", "success")
         else:
             flash("Twój plik został wysłany do weryfikacji.", "success")
+        log_action(f"UPLOADED FILE {file.id}")
         return redirect(url_for("panel.files"))
     return render_template("upload.html", form=form)
 
@@ -230,6 +235,7 @@ def delete_file():
     db.session.delete(file)
     db.session.commit()
     flash("Plik został usunięty.", "success")
+    log_action(f"DELETED FILE {file.id}")
     return redirect(url_for("panel.files"))
 
 
@@ -245,6 +251,7 @@ def delete_post():
     db.session.delete(post)
     db.session.commit()
     flash("Ogłoszenie zostało usunięte.", "success")
+    log_action(f"DELETED POST {post.id}")
     return redirect(url_for("panel.news"))
 
 
@@ -305,6 +312,7 @@ def edit_post():
             flash("Twoje ogłoszenie zostało zmienione.", "success")
         else:
             flash("Twoje zmiany zostały wysłane do weryfikacji.", "success")
+        log_action(f"EDITED POST {post.id}")
         return redirect(url_for("panel.news"))
     return render_template(
         "edit-post.html", post=post, assignable_tags=get_assignable_tags(), form=form

@@ -1,0 +1,20 @@
+{% extends "admin/master.html" %}
+
+{% block body %}
+    <h3>Logs</h3>
+
+    <pre id="log-console"
+         style="height: 70vh; overflow-y: scroll; background: #111; padding: 1rem;">
+        {{ log_content }}
+    </pre>
+
+    <button onclick="location.reload()" class="btn btn-sm btn-secondary">
+        Refresh
+    </button>
+
+    <script>
+        const logConsole = document.getElementById("log-console");
+
+        logConsole.scrollTop = logConsole.scrollHeight;
+    </script>
+{% endblock %}

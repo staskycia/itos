@@ -9,6 +9,7 @@ from app.mail import send_button_message
 from app.models import Person, Setting, User
 
 from .forms import LoginForm
+from app.logging import log_action
 
 @bp.route("/signin", methods=["GET", "POST"])
 def signin():
@@ -22,6 +23,7 @@ def signin():
         if not user or not check_password_hash(user.password_hash, login_form.password.data):
             flash("Niepoprawy email i/lub hasło!", category="error")
         else:
+            log_action("LOGGED IN")
             login_user(user)
             return redirect(url_for("panel.panel_home"))
 
@@ -75,6 +77,7 @@ def signup():
                 "auth.confirm_signup", token=generate_token(login), _external=True
             ),
         )
+        log_action(f"STARTED SIGNUP AS {login}")
         return render_template("confirmation-mail-sent.html", login=login)
     return render_template("signup.html", form=start_signup_form)
 
@@ -127,6 +130,7 @@ def confirm_signup(token):
         db.session.add(user)
         db.session.commit()
         flash("Rejestracja przebiegła pomyślnie!", "success")
+        log_action(f"FINISHED SIGNUP AS {login}")
         return redirect(url_for("auth.signin"))
     
     return render_template("confirm-signup.html", person=person, token=token, form=form)
@@ -148,6 +152,7 @@ def confirm_email(token):
     user.email_confirmed = True
     db.session.commit()
     flash("Adres email został potwierdzony!", "success")
+    log_action("CONFIRMED EMAIL")
     return redirect(url_for("panel.panel_home"))
 
 
@@ -195,6 +200,7 @@ def request_password_reset():
             "Wiadomość została wysłana.",
             "success",
         )
+        log_action(f"REQUESTED PASSWORD RESET FOR {email}")
 
     return render_template("request-password-reset.html", form=form)
 
@@ -226,6 +232,7 @@ def reset_password(token):
         db.session.commit()
 
         flash("Twoje hasło zostało zmienione. Możesz się teraz zalogować.", "success")
+        log_action(f"SUCCESFULLY RESETED PASSWORD FOR {email}")
         return redirect(url_for("auth.signin"))
 
     return render_template("reset-password.html", token=token, form=form)
@@ -234,6 +241,7 @@ def reset_password(token):
 @bp.route("/logout")
 @login_required
 def logout():
+    log_action(f"LOGGED OUT")
     logout_user()
     flash("Wylogowano pomyślnie!", category="success")
     return redirect(url_for("auth.signin"))

@@ -35,11 +35,11 @@
             value="{{form.login.data or ''}}"
           />
           {% if form.login.errors %}
-          <ul>
-            {% for error in form.login.errors %}
-              <li class="text-sm text-error-500">{{ error }} </li>
-            {% endfor %}
-          </ul>
+            <ul>
+              {% for error in form.login.errors %}
+                <li class="text-sm text-error-500">{{ error }} </li>
+              {% endfor %}
+            </ul>
           {% endif %}
         </div>
 

@@ -66,13 +66,13 @@
             class="dark:bg-dark-900 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800"
             required
           />
-            {% if form.email.errors %}
+          {% if form.email.errors %}
             <ul>
               {% for error in form.email.errors %}
                 <li class="text-sm text-error-500">{{ error }} </li>
               {% endfor %}
             </ul>
-            {% endif %}
+          {% endif %}
         </div>
       <!-- Password -->
         <div>
@@ -129,11 +129,11 @@
             </span>
           </div>
           {% if form.password.errors %}
-          <ul>
-            {% for error in form.password.errors %}
-              <li class="text-sm text-error-500">{{ error }} </li>
-            {% endfor %}
-          </ul>
+            <ul>
+              {% for error in form.password.errors %}
+                <li class="text-sm text-error-500">{{ error }} </li>
+              {% endfor %}
+            </ul>
           {% endif %}
         </div>
 
@@ -191,11 +191,11 @@
             </span>
           </div>
           {% if form.confirm_password.errors %}
-          <ul>
-            {% for error in form.confirm_password.errors %}
-              <li class="text-sm text-error-500">{{ error }} </li>
-            {% endfor %}
-          </ul>
+            <ul>
+              {% for error in form.confirm_password.errors %}
+                <li class="text-sm text-error-500">{{ error }} </li>
+              {% endfor %}
+            </ul>
           {% endif %}
         </div>
       <!-- Button -->
