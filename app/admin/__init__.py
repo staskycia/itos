@@ -358,7 +358,7 @@ class SendMailView(AdminBaseView):
         form = SendMailForm()
         
         if form.validate_on_submit():
-            # send_message(form.title.data, form.content.data, [form.recipient.data], f"{current_user.first_name} {current_user.last_name} z ITOS", replay_to=current_user.email)
+            send_message(form.title.data, form.content.data, [form.recipient.data], f"{current_user.first_name} {current_user.last_name} z ITOS", replay_to=current_user.email)
             flash("Message sent!", "success")
         
         print(form.errors)
