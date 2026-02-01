@@ -43,7 +43,7 @@
           :class="sidebarToggle ? 'justify-center' : 'justify-between'"
           class="flex items-center gap-2 pt-8 sidebar-header pb-7"
         >
-          <a href="{{url_for('panel.panel_home')}}">
+          <a href="{{url_for('main.home')}}">
             <span class="logo" :class="sidebarToggle ? 'hidden' : ''">
               <img class="dark:hidden  max-lg:hidden" src="{{url_for('static', filename='images/logo/logo.svg')}}" alt="Logo" />
               <img

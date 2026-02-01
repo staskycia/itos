@@ -52,8 +52,8 @@ def create():
         title = form.title.data
         content = form.content.data
         status = PostStatus.pending
-        if current_user.reputation >= 60:
-            status = PostStatus.visible
+        # if current_user.reputation >= 60:
+        #     status = PostStatus.visible
         tags = [
             int(tid)
             for tid in request.form.get("tags", "").split(",")
@@ -94,6 +94,7 @@ def create():
             flash("Twoje ogłoszenie zostało wysłane do weryfikacji!", "success")
         #log_action(f"CREATED POST {post.id}")
         return redirect(url_for("panel.news"))
+    flash("W trakcie kampanii wyborczej, wszystkie publikowane ogłoszenia wymagają zatwierdzenia.", "warning")
     return render_template("create.html", assignable_tags=get_assignable_tags(), form=form)
 
 
@@ -195,8 +196,8 @@ def upload():
         file.seek(0)
         
         status = FileStatus.pending
-        if current_user.reputation >= 60:
-            status = FileStatus.visible
+        # if current_user.reputation >= 60:
+        #     status = FileStatus.visible
 
         new_file = File(
             name=name,
@@ -219,6 +220,7 @@ def upload():
             flash("Twój plik został wysłany do weryfikacji.", "success")
         #log_action(f"UPLOADED FILE {file.id}")
         return redirect(url_for("panel.files"))
+    flash("W trakcie kampanii wyborczej, wszystkie publikowane pliki wymagają zatwierdzenia.", "warning")
     return render_template("upload.html", form=form)
 
 
@@ -273,8 +275,8 @@ def edit_post():
         title = form.title.data
         content = form.content.data
         status = PostStatus.pending
-        if current_user.reputation >= 60 and post.status == PostStatus.visible:
-            status = PostStatus.visible
+        # if current_user.reputation >= 60 and post.status == PostStatus.visible:
+        #     status = PostStatus.visible
         tags = [
             int(tid)
             for tid in request.form.get("tags", "").split(",")
@@ -313,6 +315,7 @@ def edit_post():
             flash("Twoje zmiany zostały wysłane do weryfikacji.", "success")
         #log_action(f"EDITED POST {post.id}")
         return redirect(url_for("panel.news"))
+    flash("W trakcie kampanii wyborczej, wszystkie publikowane zmiany wymagają zatwierdzenia.", "warning")
     return render_template(
         "edit-post.html", post=post, assignable_tags=get_assignable_tags(), form=form
     )
