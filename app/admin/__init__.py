@@ -124,12 +124,6 @@ class BasicUserModelView(AdminOnlyModelView):
     # ]
     # }
 
-    form_extra_fields = {"password": PasswordField("New Password")}
-
-    def on_model_change(self, form, model, is_created):
-        if form.password.data:
-            model.password_hash = generate_password_hash(form.password.data)
-
     can_delete = False
     can_create = False
     column_editable_list = ["reputation"]
