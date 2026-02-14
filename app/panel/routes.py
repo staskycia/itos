@@ -231,7 +231,7 @@ def delete_file():
     if not fileid:
         return redirect(url_for("panel.files"))
     file = File.query.get(fileid)
-    if not file:
+    if not file or file.user_id != current_user.id:
         return redirect(url_for("panel.files"))
     db.session.delete(file)
     db.session.commit()
@@ -247,7 +247,7 @@ def delete_post():
     if not postid:
         return redirect(url_for("panel.news"))
     post = Post.query.get(postid)
-    if not post:
+    if not post or post.user_id != current_user.id:
         return redirect(url_for("panel.news"))
     db.session.delete(post)
     db.session.commit()
@@ -269,7 +269,7 @@ def edit_post():
     except Exception:
         return redirect(url_for("panel.create"))
     post = Post.query.get(int(postid))
-    if not post:
+    if not post or post.user_id != current_user.id:
         return redirect(url_for("panel.create"))
     if form.validate_on_submit():
         title = form.title.data
