@@ -16,14 +16,14 @@ app = create_app()
 from werkzeug.security import generate_password_hash
 
 from app.extensions import db
-from app.models import Post, User
+from app.models import Post, User, UserRole
 
 admin = User(
     email="admin@itos.com",
     first_name="Admin",
     last_name="Admin",
     password_hash=generate_password_hash("admin"),
-    is_admin=True,
+    role = UserRole.superadmin,
 )
 
 with app.app_context():
