@@ -22,7 +22,7 @@ admin = User(
     email="admin@itos.com",
     first_name="Admin",
     last_name="Admin",
-    password=generate_password_hash("admin"),
+    password_hash=generate_password_hash("admin"),
     is_admin=True,
 )
 
