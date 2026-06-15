@@ -28,7 +28,7 @@ class User(UserMixin, db.Model):
     first_name = db.Column(db.String(50), nullable=False)
     last_name = db.Column(db.String(50), nullable=False)
 
-    ldap_group = db.Column(db.String(10), nullable=False)
+    ldap_group = db.Column(db.String(10), nullable=True)
 
     role = db.Column(
         Enum(UserRole, name="user_role", native_enum=True, validate_strings=True),
