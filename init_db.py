@@ -19,9 +19,9 @@ from app.extensions import db
 from app.models import Post, User
 
 admin = User(
-    email="stanislaw.stask@gmail.com",
-    first_name="Staś",
-    last_name="Kycia",
+    email="admin@itos.com",
+    first_name="Admin",
+    last_name="Admin",
     password=generate_password_hash("admin"),
     is_admin=True,
 )
