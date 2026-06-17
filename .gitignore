@@ -7,3 +7,4 @@ venv
 .env
 migrations/
 app/uploads
+people-to-import.csv

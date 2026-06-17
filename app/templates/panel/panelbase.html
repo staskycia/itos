@@ -93,7 +93,7 @@
           <!-- Menu Item Dashboard -->
                 <li>
                   <a
-                    href="{{url_for('main.home')}}"
+                    href="{{url_for('panel.panel_home')}}"
                     @click="selected = (selected === 'Panel' ? '':'Panel')"
                     class="menu-item group"
                     :class=" (selected === 'Panel') || (page === 'panel') ? 'menu-item-active' : 'menu-item-inactive'"

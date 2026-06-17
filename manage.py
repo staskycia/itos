@@ -17,8 +17,8 @@ cli = FlaskGroup(create_app=create_app_cli)
 
 @cli.command("add-superadmin-user")
 def add_superadmin_user():
-    email = "admin@example.com"
-    password = "admin"
+    email = input("Email: ")
+    password = input("Password: ")
 
     admin_user = User(
         email=email,
