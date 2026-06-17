@@ -19,10 +19,10 @@ from app.extensions import db
 from app.models import Post, User, UserRole
 
 admin = User(
-    email="admin@itos.com",
+    email=input("Admin email: "),
     first_name="Admin",
     last_name="Admin",
-    password_hash=generate_password_hash("admin"),
+    password_hash=generate_password_hash(input("Admin password: ")),
     role = UserRole.superadmin,
 )
 
